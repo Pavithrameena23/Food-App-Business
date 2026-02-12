@@ -1,0 +1,3028 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20253.26.0109.0333                               -->
+<workbook original-version='18.1' source-build='2025.3.2 (20253.26.0109.0333)' source-platform='win' version='18.1' xml:base='https://vizhub' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830?rev=1.3' id='FoodAppAnalysis_17188230031830' path='/workbooks' revision='1.4' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Foodapp (FoodAppBusiness1)' inline='true' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='FoodAppBusiness1' name='excel-direct.14tfabx0dtj94414wg5nk0t4s4sa'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' interpretationMode='0' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.14tfabx0dtj94414wg5nk0t4s4sa' name='Foodapp' table='[Foodapp$]' type='table'>
+          <columns gridOrigin='A1:AB2206:no:A1:AB2206:0' header='yes' outcome='2'>
+            <column datatype='integer' name='MonthlyIncome' ordinal='0' />
+            <column datatype='integer' name='ActiveSinceDays' ordinal='1' />
+            <column datatype='integer' name='Age' ordinal='2' />
+            <column datatype='string' name='Age Range' ordinal='3' />
+            <column datatype='string' name='Graduate' ordinal='4' />
+            <column datatype='string' name='Married' ordinal='5' />
+            <column datatype='string' name='Single' ordinal='6' />
+            <column datatype='integer' name='NoOfChildren' ordinal='7' />
+            <column datatype='integer' name='NoOfTeenager' ordinal='8' />
+            <column datatype='integer' name='NoOfDaysSinceLastPurchase' ordinal='9' />
+            <column datatype='integer' name='AmountSpendOnWines' ordinal='10' />
+            <column datatype='integer' name='AmountSpentOnFruits' ordinal='11' />
+            <column datatype='integer' name='AmountSpentOnMeat' ordinal='12' />
+            <column datatype='integer' name='AmountSpentOnFish' ordinal='13' />
+            <column datatype='integer' name='AmountSpentOnSweet' ordinal='14' />
+            <column datatype='integer' name='AmountSpentOnGold' ordinal='15' />
+            <column datatype='integer' name='NoOfDealsWithDiscount' ordinal='16' />
+            <column datatype='integer' name='NoOfWebPurchase' ordinal='17' />
+            <column datatype='integer' name='NoOfCatalogPurchase' ordinal='18' />
+            <column datatype='integer' name='NoOfStorePurchase' ordinal='19' />
+            <column datatype='integer' name='NoOfWebVisitsMonth' ordinal='20' />
+            <column datatype='string' name='PurchasedIn1stCampaign' ordinal='21' />
+            <column datatype='integer' name='PurchasedIn2ndCampaign' ordinal='22' />
+            <column datatype='integer' name='PurchasedIn3rdCampaign' ordinal='23' />
+            <column datatype='integer' name='PurchasedIn4thCampaign' ordinal='24' />
+            <column datatype='integer' name='PurchasedIn5thCampaign' ordinal='25' />
+            <column datatype='integer' name='TotalNoOfCampaignAccepted' ordinal='26' />
+            <column datatype='integer' name='CustomerComplain' ordinal='27' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AB2206:no:A1:AB2206:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MonthlyIncome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MonthlyIncome]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>MonthlyIncome</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ActiveSinceDays</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ActiveSinceDays]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>ActiveSinceDays</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age Range</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Age Range]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>Age Range</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Graduate</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Graduate]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>Graduate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Married</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Married]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>Married</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Single</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Single]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>Single</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoOfChildren</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NoOfChildren]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>NoOfChildren</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoOfTeenager</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NoOfTeenager]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>NoOfTeenager</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoOfDaysSinceLastPurchase</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NoOfDaysSinceLastPurchase]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>NoOfDaysSinceLastPurchase</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AmountSpendOnWines</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AmountSpendOnWines]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>AmountSpendOnWines</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AmountSpentOnFruits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AmountSpentOnFruits]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>AmountSpentOnFruits</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AmountSpentOnMeat</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AmountSpentOnMeat]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>AmountSpentOnMeat</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AmountSpentOnFish</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AmountSpentOnFish]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>AmountSpentOnFish</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AmountSpentOnSweet</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AmountSpentOnSweet]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>AmountSpentOnSweet</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AmountSpentOnGold</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AmountSpentOnGold]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>AmountSpentOnGold</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoOfDealsWithDiscount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NoOfDealsWithDiscount]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>NoOfDealsWithDiscount</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoOfWebPurchase</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NoOfWebPurchase]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>NoOfWebPurchase</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoOfCatalogPurchase</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NoOfCatalogPurchase]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>NoOfCatalogPurchase</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoOfStorePurchase</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NoOfStorePurchase]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>NoOfStorePurchase</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoOfWebVisitsMonth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NoOfWebVisitsMonth]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>NoOfWebVisitsMonth</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PurchasedIn1stCampaign</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PurchasedIn1stCampaign]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>PurchasedIn1stCampaign</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PurchasedIn2ndCampaign</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PurchasedIn2ndCampaign]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>PurchasedIn2ndCampaign</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PurchasedIn3rdCampaign</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PurchasedIn3rdCampaign]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>PurchasedIn3rdCampaign</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PurchasedIn4thCampaign</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PurchasedIn4thCampaign]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>PurchasedIn4thCampaign</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PurchasedIn5thCampaign</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PurchasedIn5thCampaign]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>PurchasedIn5thCampaign</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalNoOfCampaignAccepted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TotalNoOfCampaignAccepted]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>TotalNoOfCampaignAccepted</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CustomerComplain</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CustomerComplain]</local-name>
+            <parent-name>[Foodapp]</parent-name>
+            <remote-alias>CustomerComplain</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpendOnWines:qk]&quot;' value=' Wines' />
+          <alias key='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnFish:qk]&quot;' value=' Fish' />
+          <alias key='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnFruits:qk]&quot;' value='Fruits' />
+          <alias key='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnMeat:qk]&quot;' value=' Meat' />
+          <alias key='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnSweet:qk]&quot;' value=' Sweet' />
+        </aliases>
+      </column>
+      <column caption='Active Since Days' datatype='integer' name='[ActiveSinceDays]' role='measure' type='quantitative' />
+      <column caption='Amount Spend On Wines' datatype='integer' name='[AmountSpendOnWines]' role='measure' type='quantitative' />
+      <column caption='Amount Spent On Fish' datatype='integer' name='[AmountSpentOnFish]' role='measure' type='quantitative' />
+      <column caption='Amount Spent On Fruits' datatype='integer' name='[AmountSpentOnFruits]' role='measure' type='quantitative' />
+      <column caption='Amount Spent On Gold' datatype='integer' name='[AmountSpentOnGold]' role='measure' type='quantitative' />
+      <column caption='Amount Spent On Meat' datatype='integer' name='[AmountSpentOnMeat]' role='measure' type='quantitative' />
+      <column caption='Amount Spent On Sweet' datatype='integer' name='[AmountSpentOnSweet]' role='measure' type='quantitative' />
+      <column caption='Total no.of Singles' datatype='integer' name='[Calculation_298363506215243776]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Single] = &quot;Single&quot; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Total no of Married Customers' datatype='integer' name='[Calculation_298363506215731201]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Married] = &quot; Un married&quot; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Total customers' datatype='integer' name='[Calculation_298363506226769922]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([MonthlyIncome])' />
+      </column>
+      <column caption='Customer Complain' datatype='integer' name='[CustomerComplain]' role='measure' type='quantitative' />
+      <column caption='Monthly Income' datatype='integer' name='[MonthlyIncome]' role='measure' type='quantitative' />
+      <column caption='No Of Catalog Purchase' datatype='integer' name='[NoOfCatalogPurchase]' role='measure' type='quantitative' />
+      <column caption='No Of Children' datatype='integer' name='[NoOfChildren]' role='measure' type='quantitative' />
+      <column caption='No Of Days Since Last Purchase' datatype='integer' name='[NoOfDaysSinceLastPurchase]' role='measure' type='quantitative' />
+      <column caption='No Of Deals With Discount' datatype='integer' name='[NoOfDealsWithDiscount]' role='measure' type='quantitative' />
+      <column caption='No Of Store Purchase' datatype='integer' name='[NoOfStorePurchase]' role='measure' type='quantitative' />
+      <column caption='No Of Teenager' datatype='integer' name='[NoOfTeenager]' role='measure' type='quantitative' />
+      <column caption='No Of Web Purchase' datatype='integer' name='[NoOfWebPurchase]' role='measure' type='quantitative' />
+      <column caption='No Of Web Visits Month' datatype='integer' name='[NoOfWebVisitsMonth]' role='dimension' type='quantitative' />
+      <column caption='Total No Of Campaign Accepted' datatype='integer' name='[TotalNoOfCampaignAccepted]' role='measure' type='quantitative' />
+      <column caption='Foodapp' datatype='table' name='[__tableau_internal_object_id__].[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]' role='measure' type='quantitative' />
+      <column-instance column='[NoOfStorePurchase]' derivation='Attribute' name='[attr:NoOfStorePurchase:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NoOfWebPurchase]' derivation='Attribute' name='[attr:NoOfWebPurchase:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AmountSpendOnWines]' derivation='Sum' name='[sum:AmountSpendOnWines:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AmountSpentOnFish]' derivation='Sum' name='[sum:AmountSpentOnFish:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AmountSpentOnFruits]' derivation='Sum' name='[sum:AmountSpentOnFruits:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AmountSpentOnGold]' derivation='Sum' name='[sum:AmountSpentOnGold:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AmountSpentOnMeat]' derivation='Sum' name='[sum:AmountSpentOnMeat:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AmountSpentOnSweet]' derivation='Sum' name='[sum:AmountSpentOnSweet:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NoOfStorePurchase]' derivation='Sum' name='[sum:NoOfStorePurchase:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NoOfWebPurchase]' derivation='Sum' name='[sum:NoOfWebPurchase:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NoOfWebVisitsMonth]' derivation='Sum' name='[sum:NoOfWebVisitsMonth:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Lenovo/AppData/Local/Temp/TableauTemp/#TableauTemp_0ch7x770za97at1fk1s1b0zuoyli.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/19/2024 06:17:39 PM' username=''>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>MonthlyIncome</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MonthlyIncome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MonthlyIncome</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1482</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ActiveSinceDays</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ActiveSinceDays]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ActiveSinceDays</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>639</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>55</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age Range</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Age Range]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age Range</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Foodapp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Graduate</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Graduate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Graduate</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Foodapp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Married</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Married]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Married</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Foodapp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Single</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Single]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Single</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Foodapp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NoOfChildren</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NoOfChildren]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NoOfChildren</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NoOfTeenager</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NoOfTeenager]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NoOfTeenager</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NoOfDaysSinceLastPurchase</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NoOfDaysSinceLastPurchase]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NoOfDaysSinceLastPurchase</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AmountSpendOnWines</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AmountSpendOnWines]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AmountSpendOnWines</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>668</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AmountSpentOnFruits</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AmountSpentOnFruits]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AmountSpentOnFruits</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>149</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AmountSpentOnMeat</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AmountSpentOnMeat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AmountSpentOnMeat</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>488</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AmountSpentOnFish</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AmountSpentOnFish]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AmountSpentOnFish</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>171</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AmountSpentOnSweet</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AmountSpentOnSweet]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AmountSpentOnSweet</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>170</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AmountSpentOnGold</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AmountSpentOnGold]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AmountSpentOnGold</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>207</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NoOfDealsWithDiscount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NoOfDealsWithDiscount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NoOfDealsWithDiscount</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NoOfWebPurchase</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NoOfWebPurchase]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NoOfWebPurchase</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NoOfCatalogPurchase</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NoOfCatalogPurchase]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NoOfCatalogPurchase</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NoOfStorePurchase</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NoOfStorePurchase]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NoOfStorePurchase</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NoOfWebVisitsMonth</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NoOfWebVisitsMonth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NoOfWebVisitsMonth</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PurchasedIn1stCampaign</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PurchasedIn1stCampaign]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PurchasedIn1stCampaign</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Foodapp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PurchasedIn2ndCampaign</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PurchasedIn2ndCampaign]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PurchasedIn2ndCampaign</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PurchasedIn3rdCampaign</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PurchasedIn3rdCampaign]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PurchasedIn3rdCampaign</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PurchasedIn4thCampaign</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PurchasedIn4thCampaign]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PurchasedIn4thCampaign</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PurchasedIn5thCampaign</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PurchasedIn5thCampaign]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PurchasedIn5thCampaign</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TotalNoOfCampaignAccepted</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[TotalNoOfCampaignAccepted]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TotalNoOfCampaignAccepted</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CustomerComplain</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CustomerComplain]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CustomerComplain</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Foodapp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[attr:NoOfStorePurchase:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[attr:NoOfWebPurchase:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpendOnWines:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfStorePurchase:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfWebPurchase:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnSweet:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnGold:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnMeat:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnFruits:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnFish:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfWebVisitsMonth:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Foodapp' id='Foodapp_74A9B94CFBE94825AD8BE5359F1BC99E'>
+            <properties context=''>
+              <relation connection='excel-direct.14tfabx0dtj94414wg5nk0t4s4sa' name='Foodapp' table='[Foodapp$]' type='table'>
+                <columns gridOrigin='A1:AB2206:no:A1:AB2206:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='MonthlyIncome' ordinal='0' />
+                  <column datatype='integer' name='ActiveSinceDays' ordinal='1' />
+                  <column datatype='integer' name='Age' ordinal='2' />
+                  <column datatype='string' name='Age Range' ordinal='3' />
+                  <column datatype='string' name='Graduate' ordinal='4' />
+                  <column datatype='string' name='Married' ordinal='5' />
+                  <column datatype='string' name='Single' ordinal='6' />
+                  <column datatype='integer' name='NoOfChildren' ordinal='7' />
+                  <column datatype='integer' name='NoOfTeenager' ordinal='8' />
+                  <column datatype='integer' name='NoOfDaysSinceLastPurchase' ordinal='9' />
+                  <column datatype='integer' name='AmountSpendOnWines' ordinal='10' />
+                  <column datatype='integer' name='AmountSpentOnFruits' ordinal='11' />
+                  <column datatype='integer' name='AmountSpentOnMeat' ordinal='12' />
+                  <column datatype='integer' name='AmountSpentOnFish' ordinal='13' />
+                  <column datatype='integer' name='AmountSpentOnSweet' ordinal='14' />
+                  <column datatype='integer' name='AmountSpentOnGold' ordinal='15' />
+                  <column datatype='integer' name='NoOfDealsWithDiscount' ordinal='16' />
+                  <column datatype='integer' name='NoOfWebPurchase' ordinal='17' />
+                  <column datatype='integer' name='NoOfCatalogPurchase' ordinal='18' />
+                  <column datatype='integer' name='NoOfStorePurchase' ordinal='19' />
+                  <column datatype='integer' name='NoOfWebVisitsMonth' ordinal='20' />
+                  <column datatype='string' name='PurchasedIn1stCampaign' ordinal='21' />
+                  <column datatype='integer' name='PurchasedIn2ndCampaign' ordinal='22' />
+                  <column datatype='integer' name='PurchasedIn3rdCampaign' ordinal='23' />
+                  <column datatype='integer' name='PurchasedIn4thCampaign' ordinal='24' />
+                  <column datatype='integer' name='PurchasedIn5thCampaign' ordinal='25' />
+                  <column datatype='integer' name='TotalNoOfCampaignAccepted' ordinal='26' />
+                  <column datatype='integer' name='CustomerComplain' ordinal='27' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Amount spend by Married on food'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location id='AmountspendbyMarriedonfood' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Amount Spend On Wines' datatype='integer' name='[AmountSpendOnWines]' role='measure' type='quantitative' />
+            <column caption='Amount Spent On Fish' datatype='integer' name='[AmountSpentOnFish]' role='measure' type='quantitative' />
+            <column caption='Amount Spent On Fruits' datatype='integer' name='[AmountSpentOnFruits]' role='measure' type='quantitative' />
+            <column caption='Amount Spent On Meat' datatype='integer' name='[AmountSpentOnMeat]' role='measure' type='quantitative' />
+            <column caption='Amount Spent On Sweet' datatype='integer' name='[AmountSpentOnSweet]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Married]' role='dimension' type='nominal' />
+            <column-instance column='[Married]' derivation='None' name='[none:Married:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AmountSpendOnWines]' derivation='Sum' name='[sum:AmountSpendOnWines:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AmountSpentOnFish]' derivation='Sum' name='[sum:AmountSpentOnFish:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AmountSpentOnFruits]' derivation='Sum' name='[sum:AmountSpentOnFruits:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AmountSpentOnMeat]' derivation='Sum' name='[sum:AmountSpentOnMeat:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AmountSpentOnSweet]' derivation='Sum' name='[sum:AmountSpentOnSweet:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpendOnWines:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnFish:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnFruits:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnMeat:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnSweet:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Married:nk]' />
+              <groupfilter function='member' level='[none:Married:nk]' member='&quot;Unmarried&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]</column>
+            <column>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[Multiple Values]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk]' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[Multiple Values]</rows>
+        <cols>([federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names] / [federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk])</cols>
+      </table>
+      <simple-id uuid='{62A4E819-0874-4BE2-9BB0-C0CBD5436636}' />
+    </worksheet>
+    <worksheet name='Average Active Since Days Vs Age Range'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334471?rev=' id='AverageActiveSinceDaysVsAgeRange' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Active Since Days' datatype='integer' name='[ActiveSinceDays]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Age Range]' role='dimension' type='nominal' />
+            <column-instance column='[ActiveSinceDays]' derivation='Avg' name='[avg:ActiveSinceDays:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age Range]' derivation='None' name='[none:Age Range:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[avg:ActiveSinceDays:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[avg:ActiveSinceDays:qk]' />
+              <color column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[avg:ActiveSinceDays:qk]' />
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{7BD0DF44-A0A3-46C1-AE03-B0562E1D19BF}' />
+    </worksheet>
+    <worksheet name='Graduate VS Campaign Accepted'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102336958?rev=' id='GraduateVSCampaignAccepted' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column datatype='string' name='[Graduate]' role='dimension' type='nominal' />
+            <column caption='Total No Of Campaign Accepted' datatype='integer' name='[TotalNoOfCampaignAccepted]' role='measure' type='quantitative' />
+            <column-instance column='[Graduate]' derivation='None' name='[none:Graduate:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TotalNoOfCampaignAccepted]' derivation='Sum' name='[sum:TotalNoOfCampaignAccepted:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:TotalNoOfCampaignAccepted:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Graduate:nk]' />
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:TotalNoOfCampaignAccepted:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:TotalNoOfCampaignAccepted:qk]</rows>
+        <cols>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Graduate:nk]</cols>
+      </table>
+      <simple-id uuid='{5FE867AB-69BD-418D-AA25-4373270E65FC}' />
+    </worksheet>
+    <worksheet name='Monthly Income Vs Married'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334470?rev=' id='MonthlyIncomeVsMarried' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column datatype='string' name='[Married]' role='dimension' type='nominal' />
+            <column caption='Monthly Income' datatype='integer' name='[MonthlyIncome]' role='measure' type='quantitative' />
+            <column-instance column='[Married]' derivation='None' name='[none:Married:nk]' pivot='key' type='nominal' />
+            <column-instance column='[MonthlyIncome]' derivation='Sum' name='[sum:MonthlyIncome:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:MonthlyIncome:qk]' scope='rows' value='false' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-color' scope='cols' value='#ffffff' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:MonthlyIncome:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:MonthlyIncome:qk]</rows>
+        <cols>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk]</cols>
+      </table>
+      <simple-id uuid='{C6FDF120-BE84-4684-9A23-722014193D12}' />
+    </worksheet>
+    <worksheet name='Purchase types'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102336957?rev=' id='Purchasetypes' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='No Of Catalog Purchase' datatype='integer' name='[NoOfCatalogPurchase]' role='measure' type='quantitative' />
+            <column caption='No Of Store Purchase' datatype='integer' name='[NoOfStorePurchase]' role='measure' type='quantitative' />
+            <column caption='No Of Web Purchase' datatype='integer' name='[NoOfWebPurchase]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Single]' role='dimension' type='nominal' />
+            <column-instance column='[Single]' derivation='None' name='[none:Single:nk]' pivot='key' type='nominal' />
+            <column-instance column='[NoOfCatalogPurchase]' derivation='Sum' name='[sum:NoOfCatalogPurchase:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NoOfStorePurchase]' derivation='Sum' name='[sum:NoOfStorePurchase:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NoOfWebPurchase]' derivation='Sum' name='[sum:NoOfWebPurchase:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfStorePurchase:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfWebPurchase:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfCatalogPurchase:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfStorePurchase:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfWebPurchase:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfCatalogPurchase:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[Multiple Values]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfStorePurchase:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]' value='230' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfWebPurchase:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Single:nk]</rows>
+        <cols>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{B81A1793-6E71-4314-8305-96575548E0B2}' />
+    </worksheet>
+    <worksheet name='Total  customers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102335655?rev=' id='Totalcustomers' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Total no of Married Customers' datatype='integer' name='[Calculation_298363506215731201]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Married] = &quot; Un married&quot; THEN 1 ELSE 0 END' />
+            </column>
+            <column datatype='string' name='[Married]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_298363506215731201]' derivation='Count' name='[cnt:Calculation_298363506215731201:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[cnt:Calculation_298363506215731201:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{600D4C39-CC69-4B12-A8BB-1FC9F34561FB}' />
+    </worksheet>
+    <worksheet name='Total Amount Spent on Fish'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334464?rev=' id='TotalAmountSpentonFish' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Amount Spent On Fish' datatype='integer' name='[AmountSpentOnFish]' role='measure' type='quantitative' />
+            <column-instance column='[AmountSpentOnFish]' derivation='Sum' name='[sum:AmountSpentOnFish:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnFish:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{ED5BE65A-D680-4C01-BDAA-76D6EDFC5E8A}' />
+    </worksheet>
+    <worksheet name='Total Amount Spent on Fruits'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334465?rev=' id='TotalAmountSpentonFruits' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Amount Spent On Fruits' datatype='integer' name='[AmountSpentOnFruits]' role='measure' type='quantitative' />
+            <column-instance column='[AmountSpentOnFruits]' derivation='Sum' name='[sum:AmountSpentOnFruits:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnFruits:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{150A5D38-9BEB-454E-A345-520A7D117804}' />
+    </worksheet>
+    <worksheet name='Total Amount Spent on Gold'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='14'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334466?rev=' id='TotalAmountSpentonGold' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Amount Spent On Gold' datatype='integer' name='[AmountSpentOnGold]' role='measure' type='quantitative' />
+            <column-instance column='[AmountSpentOnGold]' derivation='Sum' name='[sum:AmountSpentOnGold:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnGold:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CF8126F5-4AFE-4361-9DEC-C3CA1594F5F2}' />
+    </worksheet>
+    <worksheet name='Total Amount Spent on Meat'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334467?rev=' id='TotalAmountSpentonMeat' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Amount Spent On Meat' datatype='integer' name='[AmountSpentOnMeat]' role='measure' type='quantitative' />
+            <column-instance column='[AmountSpentOnMeat]' derivation='Sum' name='[sum:AmountSpentOnMeat:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnMeat:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D7F94542-4BAD-4983-BE4B-0B3C2056B817}' />
+    </worksheet>
+    <worksheet name='Total Amount Spent on Sweet'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334468?rev=' id='TotalAmountSpentonSweet' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Amount Spent On Sweet' datatype='integer' name='[AmountSpentOnSweet]' role='measure' type='quantitative' />
+            <column-instance column='[AmountSpentOnSweet]' derivation='Sum' name='[sum:AmountSpentOnSweet:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnSweet:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A5C33DDA-C012-43F6-B1C3-243FC14BE3C3}' />
+    </worksheet>
+    <worksheet name='Total Amount Spent on Wines'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334463?rev=' id='TotalAmountSpentonWines' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Amount Spend On Wines' datatype='integer' name='[AmountSpendOnWines]' role='measure' type='quantitative' />
+            <column-instance column='[AmountSpendOnWines]' derivation='Sum' name='[sum:AmountSpendOnWines:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpendOnWines:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F4B9AAFB-E46A-47CF-BF9E-9A9B93E2B2FF}' />
+    </worksheet>
+    <worksheet name='Total Customers Vs Age Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102335658?rev=' id='TotalCustomersVsAgeGroup' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column datatype='string' name='[Age Range]' role='dimension' type='nominal' />
+            <column caption='Total customers' datatype='integer' name='[Calculation_298363506226769922]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([MonthlyIncome])' />
+            </column>
+            <column caption='Monthly Income' datatype='integer' name='[MonthlyIncome]' role='measure' type='quantitative' />
+            <column-instance column='[Age Range]' derivation='None' name='[none:Age Range:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_298363506226769922]' derivation='User' name='[usr:Calculation_298363506226769922:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]' />
+              <size column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[usr:Calculation_298363506226769922:qk]' />
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]' />
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[usr:Calculation_298363506226769922:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3ABB11AB-0C06-40AF-8A49-5309B99FCF1D}' />
+    </worksheet>
+    <worksheet name='Total customer Complain'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334469?rev=' id='TotalcustomerComplain' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Customer Complain' datatype='integer' name='[CustomerComplain]' role='measure' type='quantitative' />
+            <column-instance column='[CustomerComplain]' derivation='Sum' name='[sum:CustomerComplain:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:CustomerComplain:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6E9C2610-340E-4B8B-8506-2B3040889D7D}' />
+    </worksheet>
+    <worksheet name='Total no of Campaign Accepted Vs Age Range'>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102335660?rev=' id='TotalnoofCampaignAcceptedVsAgeRange' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column datatype='string' name='[Age Range]' role='dimension' type='nominal' />
+            <column caption='Total No Of Campaign Accepted' datatype='integer' name='[TotalNoOfCampaignAccepted]' role='measure' type='quantitative' />
+            <column-instance column='[Age Range]' derivation='None' name='[none:Age Range:nk]' pivot='key' type='nominal' />
+            <column-instance column='[TotalNoOfCampaignAccepted]' derivation='Sum' name='[sum:TotalNoOfCampaignAccepted:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:TotalNoOfCampaignAccepted:qk]' />
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]' />
+              <color column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{56832EC8-97EB-44FA-B2C3-4EF5187D3097}' />
+    </worksheet>
+    <worksheet name='Total no of Singles'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334461?rev=' id='TotalnoofSingles' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Foodapp (FoodAppBusiness1)' name='federated.0wbtzxo1teje6u0zvtjnt1kwl1za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0wbtzxo1teje6u0zvtjnt1kwl1za'>
+            <column caption='Total no.of Singles' datatype='integer' name='[Calculation_298363506215243776]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Single] = &quot;Single&quot; THEN 1 ELSE 0 END' />
+            </column>
+            <column datatype='string' name='[Single]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_298363506215243776]' derivation='Sum' name='[sum:Calculation_298363506215243776:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='title'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='2' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:Calculation_298363506215243776:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EC52F0DF-5BBB-4A47-9C73-3397125AC221}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Analysis for  Food App'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='https://public.tableau.com/workbooks/FoodAppAnalysis_17188230031830/102334473?rev=' id='AnalysisforFoodApp' path='/workbooks/FoodAppAnalysis_17188230031830' revision='' />
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e9f3f2' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='border-style' value='solid' />
+          <format attr='border-width' value='2' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97856' id='5' param='vert' type-v2='layout-flow' w='99150' x='425' y='1072'>
+            <zone h='7774' id='7' type-v2='title' w='99150' x='425' y='1072'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='90082' id='6' type-v2='layout-basic' w='99150' x='425' y='8846' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='13895' id='10' name='Total Amount Spent on Wines' w='15524' x='623' y='9112' />
+        <zone h='13781' id='11' name='Total Amount Spent on Fish' w='15399' x='33791' y='9112' />
+        <zone h='14465' id='12' name='Total Amount Spent on Fruits' w='15586' x='50000' y='8656' />
+        <zone h='14237' id='13' name='Total Amount Spent on Gold' w='16085' x='16833' y='9226' />
+        <zone h='35535' id='17' name='Monthly Income Vs Married' w='26567' x='425' y='24374' />
+        <zone h='35877' id='18' name='Total Customers Vs Age Group' w='25499' x='28180' y='24601' />
+        <zone h='12415' id='19' name='Total Customers Vs Age Group' pane-specification-id='0' param='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]' type-v2='color' w='8728' x='44140' y='36674' />
+        <zone h='14009' id='20' name='Total Amount Spent on Meat' w='15648' x='66397' y='8542' />
+        <zone h='15034' id='21' name='Total Amount Spent on Sweet' w='14526' x='82544' y='8542' />
+        <zone h='38610' id='22' name='Total no of Campaign Accepted Vs Age Range' w='26674' x='-53' y='61390' />
+        <zone h='38155' id='25' name='Purchase types' w='44368' x='54995' y='61617' />
+        <zone h='38497' id='26' name='Graduate VS Campaign Accepted' w='26780' x='27205' y='61503' />
+        <zone h='8656' id='27' name='Graduate VS Campaign Accepted' pane-specification-id='0' param='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Graduate:nk]' type-v2='color' w='9165' x='42643' y='74601' />
+        <zone h='36219' id='30' name='Amount spend by Married on food' w='44389' x='54738' y='24487' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='2700' minheight='2700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97856' id='35' param='vert' type-v2='layout-flow' w='99150' x='425' y='1072'>
+                <zone h='7774' id='7' type-v2='title' w='99150' x='425' y='1072'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='112' h='14009' id='20' is-fixed='true' name='Total Amount Spent on Meat' w='15648' x='66397' y='8542'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='121' h='15034' id='21' is-fixed='true' name='Total Amount Spent on Sweet' w='14526' x='82544' y='8542'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='116' h='14465' id='12' is-fixed='true' name='Total Amount Spent on Fruits' w='15586' x='50000' y='8656'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='111' h='13895' id='10' is-fixed='true' name='Total Amount Spent on Wines' w='15524' x='623' y='9112'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='110' h='13781' id='11' is-fixed='true' name='Total Amount Spent on Fish' w='15399' x='33791' y='9112'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='114' h='14237' id='13' is-fixed='true' name='Total Amount Spent on Gold' w='16085' x='16833' y='9226'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35535' id='17' is-fixed='true' name='Monthly Income Vs Married' w='26567' x='425' y='24374'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36219' id='30' is-fixed='true' name='Amount spend by Married on food' w='44389' x='54738' y='24487'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35877' id='18' is-fixed='true' name='Total Customers Vs Age Group' w='25499' x='28180' y='24601'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12415' id='19' name='Total Customers Vs Age Group' pane-specification-id='0' param='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]' type-v2='color' w='8728' x='44140' y='36674'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38610' id='22' is-fixed='true' name='Total no of Campaign Accepted Vs Age Range' w='26674' x='-53' y='61390'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38497' id='26' is-fixed='true' name='Graduate VS Campaign Accepted' w='26780' x='27205' y='61503'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8656' id='27' name='Graduate VS Campaign Accepted' pane-specification-id='0' param='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Graduate:nk]' type-v2='color' w='9165' x='42643' y='74601'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38155' id='25' is-fixed='true' name='Purchase types' w='44368' x='54995' y='61617'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{828187DD-F8C1-4595-9615-FE4382AB8575}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' show-side-pane='false' source-height='44'>
+    <window class='worksheet' name='Total no of Singles'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9F0AE7FD-300C-4335-8FA8-F0CAF1175F8D}' />
+    </window>
+    <window class='worksheet' name='Total  customers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9ACA4629-ADBA-4143-8DA4-CCAA1B803B78}' />
+    </window>
+    <window class='worksheet' name='Total Amount Spent on Wines'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BC2065E1-7EDE-40A3-88C9-6CF8FE6C11A9}' />
+    </window>
+    <window class='worksheet' name='Total Amount Spent on Fish'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{499D83B2-8C7D-413D-9C4F-3A66C8235099}' />
+    </window>
+    <window class='worksheet' name='Total Amount Spent on Fruits'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DA80551D-B170-4213-8D54-423931ABE548}' />
+    </window>
+    <window class='worksheet' name='Total Amount Spent on Gold'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FCE1DD27-D5AE-4730-9A24-A783267A1C82}' />
+    </window>
+    <window class='worksheet' name='Total Amount Spent on Meat'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4357896A-CCC2-490E-9135-BAAE1A6AB8E2}' />
+    </window>
+    <window class='worksheet' name='Total Amount Spent on Sweet'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FF91A6A9-AD3A-4C62-B714-7FCEF7D05D07}' />
+    </window>
+    <window class='worksheet' name='Total customer Complain'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3C28287A-C6D6-4D86-A9DF-5C1AAEF29C20}' />
+    </window>
+    <window class='worksheet' name='Monthly Income Vs Married'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CF7DB362-474C-46D5-AD17-E30A70D1D941}' />
+    </window>
+    <window class='worksheet' name='Average Active Since Days Vs Age Range'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[avg:ActiveSinceDays:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{849E9316-289E-429C-8253-43600E11D9C3}' />
+    </window>
+    <window class='worksheet' name='Total Customers Vs Age Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[usr:Calculation_298363506226769922:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9C5F1AB8-E9D2-4C5A-BCBD-D6AE00029776}' />
+    </window>
+    <window class='worksheet' name='Total no of Campaign Accepted Vs Age Range'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnFish:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AEBDD775-46E8-4EBB-9DAC-20BA044F8943}' />
+    </window>
+    <window class='worksheet' name='Purchase types'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:NoOfWebVisitsMonth:qk]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Single:nk]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:NoOfStorePurchase:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5227BB54-4E95-410C-A9CA-255387C02318}' />
+    </window>
+    <window class='worksheet' name='Graduate VS Campaign Accepted'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Graduate:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Graduate:nk]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:PurchasedIn1stCampaign:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0A00EE3C-B7FE-44B3-938B-D539AC610724}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Analysis for  Food App'>
+      <viewpoints>
+        <viewpoint name='Amount spend by Married on food'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Graduate VS Campaign Accepted'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Graduate:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Monthly Income Vs Married'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Purchase types'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Amount Spent on Fish'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Total Amount Spent on Fruits'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Total Amount Spent on Gold'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Total Amount Spent on Meat'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Total Amount Spent on Sweet'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Total Amount Spent on Wines'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Total Customers Vs Age Group'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Age Range:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Total no of Campaign Accepted Vs Age Range'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{617A7762-958F-4451-870F-1278DA2D0407}' />
+    </window>
+    <window class='worksheet' name='Amount spend by Married on food'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[:Measure Names]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[none:Married:nk]</field>
+            <field>[federated.0wbtzxo1teje6u0zvtjnt1kwl1za].[sum:AmountSpentOnFruits:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AE154745-A3AB-4D50-B645-4FD1A2170399}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Analysis for  Food App' width='192'>
+      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
+      rgUXYK4L4P8GmtbUME6NFQAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
