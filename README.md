@@ -26,8 +26,14 @@ Interactivity: Integrated dashboard actions, parameters, and tooltips to allow u
 Data Storytelling: Focused on a clean, high-contrast UI designed for executive-level presentations.
 
 📂 Repository Structure
-Plaintext
+
 ├── Data/                 # Raw food app transaction data (CSV)
+
 ├── Food_App_Analysis.twb # Tableau Workbook file (XML)
+
 ├── Screenshots/          # High-resolution dashboard previews
+
 └── README.md             # Project documentation and live link
+
+<img width="1880" height="747" alt="Analysis for  Food App" src="https://github.com/user-attachments/assets/dd27411e-e8b6-40f4-b446-5c27345643a9" />
+
