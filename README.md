@@ -2,7 +2,7 @@
 
 🚀 View Live Interactive Dashboard <a href="https://public.tableau.com/views/FoodAppAnalysis_17188230031830/AnalysisforFoodApp?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
   <img src="https://img.shields.io/badge/View_Live_Dashboard-Logos?style=for-the-badge&logo=tableau&logoColor=white&labelColor=black&color=blue" alt="Live Dashboard">
-</a>
+</a> "Best viewed in full-screen mode by clicking the icon at the bottom right of the Tableau window."
 
 📌 Project Overview
 This project provides a data-driven deep dive into the performance of a high-volume food delivery platform. Using Tableau, I analyzed thousands of transactions to identify the drivers of customer satisfaction, delivery efficiency, and revenue growth. The dashboard serves as a strategic tool for managing vendor relationships and optimizing logistics.
